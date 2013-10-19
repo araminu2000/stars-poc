@@ -3,8 +3,8 @@ parameters:
     database_host:     127.0.0.1
     database_port:     ~
     database_name:     stars_poc
-    database_user:     root
-    database_password: ~
+    database_user:     stars
+    database_password: stars
 
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
