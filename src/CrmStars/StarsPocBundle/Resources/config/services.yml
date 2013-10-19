@@ -1,0 +1,7 @@
+parameters:
+#    crm_stars_stars_poc.example.class: CrmStars\StarsPocBundle\Example
+
+services:
+#    crm_stars_stars_poc.example:
+#        class: %crm_stars_stars_poc.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

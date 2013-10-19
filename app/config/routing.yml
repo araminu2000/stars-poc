@@ -1,0 +1,4 @@
+crm_stars_stars_poc:
+    resource: "@CrmStarsStarsPocBundle/Resources/config/routing.yml"
+    prefix:   /
+
