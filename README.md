@@ -14,7 +14,7 @@ If you would like to collaborate to the development of the project, you're very 
 
 ### Communication channels
 
-We have a mailing list set up at Google Groups, which you're free to join here: stars-crm-poc@googlegroups.com
+We have a mailing list set up at Google Groups, [which you're free to join here](https://groups.google.com/d/forum/stars-crm-poc).
 
 ### Branching
 
