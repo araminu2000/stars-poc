@@ -7,6 +7,36 @@ Stars CRM proof of concept
 
 Stars is a the proof of concept of an open source CRM. Details to be added soon after we set things up!
 
+How to collaborate?
+===================
+
+If you would like to collaborate to the development of the project, you're very much free to do so. Please make sure to follow the *installation instructions* below and the *milestone rules*. There are also some specifics related to branching below:
+
+### Branching
+
+Each individual issue needs to be solved within the context of a ticket - every ticket denotes an individual remote feature branch, which is deleted when merged.
+
+We use powerful continuous integration and QA software to ensure that the project is of the highest quality, so make sure to always check with our remote solutions in order to validate your work, **before merging back into master via GitHub's pull request mechanism** 
+
+Remember to rebase often and to squash your commits before merging a branch, so that our stable snapshots are in fact, actually stable, and not just intermediate development points.
+
+### Branching example
+
+Let's say you're working on Issue 42, which indicates: _Fix code coverage for UserAccount class_. We would go ahead and create a remote feature branch named: _i42-code-coverage-useraccount_, and we would look at solving the code coverage problem for the class.
+
+When we're done with development, we would commit with the following commands:
+
+* git commit -am "Fixes #42: Fix code coverage for UserAccount class"
+* git push -u origin i42-code-coverage-useraccount
+
+The set of commands above would trigger _Travis CI, Scrutinizer and Coveralls_ builds for our remote branch which can validate/invalidate our solution. If we made a mistake and didn't actually completly cover the UserAccount class, we can implement our solution, and then rebase:
+
+* git commit -am "Solved code coverage issue for getId() method"
+* git rebase -i HEAD~2
+* git push -f
+
+Finally, when we're ready, we just open a new pull request on GitHub and optionally ask somebody to do a code review for us. Once the pull request is done, all of the QA systems above will be triggered again, and we can validate that what's been merged into master does validate our solution. Our ticket will also be closed when merging the PR.
+
 Milestones
 ==========
 
