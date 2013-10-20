@@ -10,7 +10,11 @@ Stars is a the proof of concept of an open source CRM. Details to be added soon 
 How to collaborate?
 ===================
 
-If you would like to collaborate to the development of the project, you're very much free to do so. Please make sure to follow the *installation instructions* below and the *milestone rules*. There are also some specifics related to branching below:
+If you would like to collaborate to the development of the project, you're very much free to do so. Please make sure to follow the *installation instructions* below and the *milestone rules*. There are also some specifics related to branching below.
+
+### Communication channels
+
+We have a mailing list set up at Google Groups, which you're free to join here: stars-crm-poc@googlegroups.com
 
 ### Branching
 
