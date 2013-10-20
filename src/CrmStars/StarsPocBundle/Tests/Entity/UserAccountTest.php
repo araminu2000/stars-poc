@@ -56,6 +56,12 @@ class UserAccountTest extends \PHPUnit_Framework_TestCase {
         $this->assertGreaterThan($timeToTest, $accountEntity->getUpdatedAt());
 
         $this->assertEquals(20, strlen($accountEntity->getSeed()));
+
+        //assert NULL values
+        $this->assertNull($accountEntity->getId());
+        $this->assertNull($accountEntity->getUsername());
+        $this->assertNull($accountEntity->getFullName());
+        $this->assertNull($accountEntity->getEmail());
     }
 
     public function testAllGettersAndSettersWorkCorrectly() {

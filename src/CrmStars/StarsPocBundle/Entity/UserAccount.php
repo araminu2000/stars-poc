@@ -10,7 +10,7 @@ use \DateTime;
  * Class UserAccount represents the account of a regular user on the website. A user can login/logout and perform
  * a variety of operations, based on their ACL.
  * @package CrmStars\StarsPocBundle\Entity
- * @ORM\Entity(repositoryClass="CrmStars\StarsPocBundle\Repository\User\AccountRepository")
+ * @ORM\Entity(repositoryClass="CrmStars\StarsPocBundle\Repository\UserAccountRepository")
  * @ORM\Table(name="user_account")
  */
 class UserAccount {
