@@ -12,4 +12,8 @@ use CrmStars\StarsPocBundle\Entity\UserAccount;
  */
 class UserAccountRepository extends EntityRepository {
 
+    public function createOne($entity) {
+        $this->_em->persist($entity);
+        $this->_em->flush();
+    }
 }
