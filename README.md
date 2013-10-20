@@ -7,6 +7,11 @@ Stars CRM proof of concept
 
 Stars is a the proof of concept of an open source CRM. Details to be added soon after we set things up!
 
+Milestones
+==========
+
+Milestones are used as ticket buckets, so that we have better control over our release schedule and ticket organisation. If you come across a bug or a ticket that **can be assigned to one of the existing milestones**, make sure you do that. If you find several tickets that **could be grouped under a common milestone**, create one for it, and if you encounter a general purpose ticket, add it to the list of issues, but **don't specify a milestone**.
+
 Installation
 ============
 
